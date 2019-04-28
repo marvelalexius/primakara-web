@@ -138,8 +138,8 @@ body {
 }
 
 .sidebar-menu {
-  height: auto;
-  min-height: 100%;
+  top: 0;
+  position: sticky;
 }
 
 .sidebar-menu-logo {
@@ -183,12 +183,13 @@ body {
 }
 
 .slider > img {
-  width: 1024px;
-  height: 493px;
+  width: 1012px;
+  height: 487px;
 }
 
 .main-content-title-wrapper {
   text-align: center;
+  padding: 25px 0;
 }
 
 .main-content-title {
@@ -200,4 +201,57 @@ body {
 
 .main-content-title > span {
   color: #1abc9c;
+}
+
+.main-content-why-left {
+  background: #1abc9c;
+  padding: 20px;
+  color: white;
+}
+
+.main-content-why-title {
+  text-transform: uppercase;
+}
+
+.main-content-why-title > h2 {
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-content-why-content {
+  text-align: justify;
+}
+
+.main-content-why-right {
+  padding: 10px;
+  text-align: center;
+}
+
+.main-content-why-right > img {
+  width: 160px;
+  height: auto;
+}
+
+.main-content-major {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.major-icon > i {
+  color: #1abc9c;
+  font-size: 70px;
+}
+
+.main-content-gallery {
+  margin-top: 50px;
+}
+
+.gallery-image {
+  padding: 10px;
+}
+
+.gallery-image > img {
+  width: 100%;
+  height: 100%;
 }
